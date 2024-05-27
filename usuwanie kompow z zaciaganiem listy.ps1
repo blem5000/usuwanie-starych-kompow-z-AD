@@ -57,6 +57,8 @@ while($true) {
         }
     
     ++$licznik
+    $liczba_usunietych_w_petli++
+    $liczba_usunietych_suma++
     Write-Host "W tej petli usunalem $liczba_usunietych_w_petli komputerow"
     Write-Host "Od uruchomienia skryptu usunalem $liczba_usunietych_suma komputerow"
     Write-Host "Petla $licznik"
